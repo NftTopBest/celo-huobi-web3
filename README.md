@@ -15,11 +15,11 @@
   * list/create blog posts, save in IPFS
   * With LIT to have content permission control (user must mint poster's NFT to have access to the article) [source code](./frontend/src/helpers/litHelper.ts)
   * blog content can add token gating logic (only user have special NFT can read the blog content) [source code](./frontend/src/pages/web3nft.social/%5BuserWalletAddress%5D/blog/%5Bid%5D.vue)
-  * readers can mint NFT for creator (Moonbase Aplpha testnet)
+  * readers can mint NFT for creator (celo testnet)
     * [FE code](./frontend/src/components/web3/nft/btn/MintNFT.vue)
     * [NFT Contract Code](./contracts/CTC_ERC721A.sol)
     * [NFT contract Deploy](https://alfajores-blockscout.celo-testnet.org/address/0x83B06d09B99AD2641Dd9b1132E8Ce8809b623433/transactions)
-  * readers can voteUp/voteDown for creator  (Moonbase Aplpha testnet)
+  * readers can voteUp/voteDown for creator  (celo testnet)
     * [FE code](./frontend/src/components/web3/nft/btn/VoteUpDown.vue)
     * [Voting Contract Code](./contracts/CrowdFunding.sol)
     * [Voting contract Deploy](https://alfajores-blockscout.celo-testnet.org/address/0xf9982E648eE8F9E3e9039b0071bA939c3BC19652/transactions)
